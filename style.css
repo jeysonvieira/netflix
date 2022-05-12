@@ -347,18 +347,6 @@ footer .numero a{
         height: 45px;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
     .sessao_body{
         height: 400px;
     }
@@ -410,6 +398,68 @@ footer .numero a{
 
 
 
+
+}
+
+
+
+
+
+
+
+
+@media (max-width: 320px){
+
+    header{
+        height: 400px;
+    }
+    
+    .centro_header{
+        margin-top: 20px;
+        font-size: 0.8em;
+        padding: 0px 10px;
+    }
+
+    .email{
+        flex-direction: column;
+    }
+    
+    .email input{
+        width: 75vw;
+        height: 40px;
+    }
+    
+    .email button{
+        margin-top: 10px;
+        width: 30vw;
+        height: 35px;
+    }
+
+    .sessao_body{
+        height: 600px;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .sessao_body .texto{
+        width: 100vw;
+        padding: 0px;
+        font-size: 1em;
+    }
+
+    .perguntas h2{
+        font-size: 1.3em;
+    }
+    
+    .pergunta{
+        width: 70vw;
+        padding: 0px 20px;
+        font-size: 1em;
+    }
+
+    .email_final button, .email_final input{
+        font-size: 0.7em;
+    }
 
 }
 
